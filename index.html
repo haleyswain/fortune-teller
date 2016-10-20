@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="css/styles.css" rel="stylesheet" type="text/css">
+      <script src="js/jquery-3.1.1.js"></script>
+      <script src="js/scripts.js"></script>
+    <title>Fortune Teller</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2> Take this Quiz to find out your fortune!</h2>
+      </div>
+      <form id = "fortune_teller">
+        <div class="form-group">
+          <h4>Some unlucky things that have happened to me lately are: <h4>
+          <input type="Checkbox" name="unlucky_fortune" value="You will receive a bad grade at school soon"> Seen a black cat<br>
+          <input type = "checkbox" name="unlucky_fortune" value="You will be unlucky in love"> Broken a mirror<br>
+          <input type="checkbox" name="unlucky_fortune" value="You will experience difficulties with a friendship"> Walked under a ladder <br>
+        </div>
+        <div class="form-group">
+          <h4> Some lucky things that have happened to me lately are: </h4>
+          <input type = "checkbox" name ="lucky_fortune" value="You will dream of rainbows and unicorns"> Seen a four-leaf clover <br>
+          <input type = "checkbox" name="lucky_fortune" value="You will receive an unexpected sum of money soon"> Seen a Rainbow.<br>
+          <input type = "checkbox" name="lucky_fortune" value="You will make friends with a really cute puppy soon"> Found a heads-up penny on the ground. <br>
+        </div>
+        <button type="submit"> Get My Fortune!</button>
+      </form>
+        <span id="unlucky_responses">
+          <p><b> Sometime in the future:</p></b>
+        </span>
+        <span id="lucky_responses">
+          <p><b> Some great things that will happen to you are:</p></b>
+        </span>
+      </div>
+  </body>
+</html>
