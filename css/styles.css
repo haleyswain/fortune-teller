@@ -1,0 +1,12 @@
+#unlucky_responses {
+  display:none;
+}
+#lucky_responses {
+  display:none;
+}
+body {
+  background-color: #E0FFFF
+}
+.container {
+  padding-top: 8px;
+}
